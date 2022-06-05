@@ -2,6 +2,7 @@ import 'package:api_fetch/Screen1.dart';
 import 'package:api_fetch/characterModel.dart';
 import 'package:api_fetch/data_model/data_model.dart';
 import 'package:api_fetch/data_model/result.dart';
+import 'package:api_fetch/filePicker.dart';
 import 'package:api_fetch/getCharacter.dart';
 import 'package:api_fetch/screen2.dart';
 import 'package:flutter/material.dart';
@@ -40,6 +41,7 @@ class _MyAppState extends State<MyApp> {
       routes: {
         '/': (context) => const Screen1(),
         'second': (context) => Screen2(),
+        'filePicker': (context) => FilePciker(),
       },
 
       // home: Scaffold(

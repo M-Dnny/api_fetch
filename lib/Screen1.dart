@@ -58,6 +58,12 @@ class Screen1State extends State<Screen1> {
                 );
               },
               child: const Text("NAVIGATE"),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, 'filePicker');
+              },
+              child: const Text("NAVIGATE TO FILE PICKER"),
             )
           ],
         ),
